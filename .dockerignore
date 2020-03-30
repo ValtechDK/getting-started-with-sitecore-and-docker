@@ -1,0 +1,12 @@
+.git/
+.vs/
+data/
+packages/
+*.yml
+*.md
+*.user
+.dockerignore
+.env
+.gitignore
+Dockerfile
+src/Project/code/Website/Dockerfile.*
