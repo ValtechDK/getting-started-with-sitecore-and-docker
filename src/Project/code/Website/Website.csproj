@@ -109,7 +109,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Project\Performance.config" />
+    <Content Include="App_Config\Include\Project\Website\Performance.config" />
     <Content Include="App_Config\Include\Foundation\Unicorn\Rainbow.config" />
     <Content Include="App_Config\Include\Foundation\Unicorn\Unicorn.zSharedSecret.config.example" />
     <Content Include="App_Config\Include\Foundation\Unicorn\Unicorn.UI.IdentityServer.config.disabled" />
@@ -125,9 +125,10 @@
     <Content Include="App_Config\Include\Foundation\Unicorn\Unicorn.Configs.Default.example" />
     <Content Include="App_Config\Include\Foundation\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Foundation\Unicorn\Unicorn.AutoPublish.config" />
-    <Content Include="App_Config\Include\Project\Serialization.config" />
+    <Content Include="App_Config\Include\Project\Website\Serialization.config" />
     <Content Include="App_Config\Include\Foundation\Serialization.config" />
     <Content Include="App_Config\Sync-Unicorn.ps1" />
+    <Content Include="App_Config\Include\Feature\PageInfo\PageInfo.config" />
     <None Include="Dockerfile.cd" />
     <None Include="Dockerfile.cm" />
     <None Include="packages.config" />
@@ -138,9 +139,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Config\Include\Feature\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\..\..\Feature\code\Feature.csproj">
       <Project>{6c49b0ce-4e4a-42c8-8bc4-bd7639d55747}</Project>
