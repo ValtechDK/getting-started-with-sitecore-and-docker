@@ -10,3 +10,5 @@ packages/
 .gitignore
 Dockerfile
 src/Project/code/Website/Dockerfile.*
+**/bin/
+**/obj/

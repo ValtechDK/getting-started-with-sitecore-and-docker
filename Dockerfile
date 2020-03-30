@@ -14,6 +14,7 @@ COPY ./src/Foundation/code/Foundation.csproj ./src/Foundation/code/Foundation.cs
 COPY ./src/Feature/code/Feature.csproj ./src/Feature/code/Feature.csproj
 COPY ./src/Project/code/Website/packages.config ./src/Project/code/Website/packages.config
 COPY ./src/Project/code/Website/Website.csproj ./src/Project/code/Website/Website.csproj
+RUN dotnet restore
 RUN nuget restore
 
 # build solution
